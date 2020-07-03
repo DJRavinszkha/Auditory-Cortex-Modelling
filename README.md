@@ -8,3 +8,6 @@ The investigation aims to evaluate whether sound classification using the Fast a
 
 ## Methods
 A set consisting of 288 sounds belonging 6 categories (speech, vocal sounds, animal sounds, music, tools and nature sounds) of equal size (n=48) will be used as the inputs to the Zulfiqar et al. (2020) model. The time-series contain 16000 data points representing excitatory response during a time-frame of 1s. Here, the sound classification abilities of the Fast and Slow areas in the model over time will be investigated. Support Vector Machines (SVM) will be used to classify the sounds. In order to simulate the recurrent processing of sound over time in the brain, a rolling-window classifier was chosen (Silva, Brandao, Castilho, & Pereira, 2015). The time-series model output will be divided into 20 sections representing 50 ms each, and each unit’s average response over each section will be calculated. The accuracy of the classifiers will be evaluated by using k-fold cross-validation. By inspecting the accuracy pattern of the classifier over time, the temporal aspect of sound recognition will be evaluated. Comparing the accuracy for each of the six sound categories between the two belt areas, allows both ventral and dorsal streams to be evaluated in terms of how well they classify sounds.
+
+## Results
+Outputs of 
